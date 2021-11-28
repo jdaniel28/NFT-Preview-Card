@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'outfit'; /*a name to be used later*/
+    src: url('./Outfit-VariableFont_wght.ttf'); /*URL to font*/
+}
+body{
+    margin:0%;
+}
+.divBody{
+    margin:0%;
+    background-color : hsl(217, 54%, 11%);
+    color : #ffffff;    
+    display : grid;
+    justify-content: center;
+    align-content:center;
+    font-family: outfit;
+}
+.divCard{
+    width:50%;
+    margin :25% 19.5%;
+    padding:2rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+}
+#backgroundImg{
+    width : 100%;
+    height: 100%;
+}
+#divCardHeaderText{
+    font-size:0.735rem;
+    font-weight: 600;
+}
+#divCardText{
+    color : rgba(255,255,255,0.5);
+    font-weight: 300;
+    font-size:18px;
+}
+#divCardEthereum{
+    display : inline-block;
+    color : #3de3e7;
+    font-size : 18px;
+    font-weight:600;
+    padding-bottom:20px;
+}
+#divCardTimeLeft{
+    float: right;
+    font-weight: 400;
+    font-size:18px;
+    text-align:right;
+    color : rgba(50, 89, 139, 0.95);
+    padding-bottom:20px;
+}
+#divCardHorizontalLine{
+    margin-bottom: 20px;
+    margin-top:10px;
+    width:100%;
+    background-color: red;
+}
+#divCardAuthorImg{
+    display:inline;
+}
+#imgCardAuthorImg{
+    display: inline-block;
+    width : 8%;
+    height: 8%;
+    border-radius: 50%;
+    border : 2px solid white;  
+}
+#divCardAuthor{
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.5   );
+    float:right;
+    height:200%;
+    padding:1.5%;
+    width:85%;
+    text-align: left;
+}
+#spanAuthor{
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 1);
+}
